@@ -1,0 +1,10 @@
+target/
+.env
+.env.*
+.git/
+.github/
+.devcontainer/
+tests/
+README.md
+Dockerfile
+.dockerignore
