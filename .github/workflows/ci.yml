@@ -35,3 +35,5 @@ jobs:
         run: cargo test --locked
         env:
           DATABASE_URL: postgres://postgres:postgres@localhost:5432/template_test
+      - name: Build container
+        run: docker build --tag rust-api-template:ci .
